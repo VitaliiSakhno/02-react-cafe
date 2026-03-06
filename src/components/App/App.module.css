@@ -1,10 +1,29 @@
 @import "modern-normalize/modern-normalize.css";
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  height: 100%;     
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;         
+  justify-content: center;     
+  gap: 30px;                  
+  min-height: 100vh;           
+  padding: 20px;              
+  box-sizing: border-box;
+  text-align: center;      
 }
 
 .logo {
